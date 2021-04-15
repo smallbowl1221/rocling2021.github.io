@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rocling2021</title>
+
+    
+    <!-- 匯入bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  
+    <!-- 匯入bootstrap -->
+    <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+
+    <!-- 匯入jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- 匯入bootstrap javascript -->
+    <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    
+
+
+    
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<!-- ============================================================================ -->
+
+
+    <div>
+        <nav class="nav navbar-default navbar-fixed-top topflex" id="topdiv">
+
+            <div class="navbar-header" id="navheader">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsingNavbarMd">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-collapse-center" id="collapsingNavbarMd">
+                <ul class="nav navbar-nav navbar-center" >
+                    <li class="single"><a href="javascript:;" class="navItems" navTo="#">Home</a></li>
+
+                    <li class="single"><a href="javascript:;" class="navItems" navTo="#call_paper">Call for Papers</a></li>
+
+                    <li class="single s"><a href="javascript:;" class="navItems nav-link disabled" navTo="">Programs</a></li>
+
+                    <li class="single"><a href="javascript:;" class="navItems" navTo="#key_note">Keynote Speakers</a></li>
+
+                    <li class="single s"><a href="javascript:;" class="navItems nav-link disabled" navTo="">Tutorials</a></li>
+                    
+                    <li class="single"><a href="javascript:;" class="navItems" navTo="#special">Special Session</a></li>
+
+                    <li class="single"><a href="javascript:;" class="navItems" navTo="#task">Share Task</a></li>
+
+                    <li class="single"><a href="javascript:;" class="navItems" navto='#org'>Organization</a></li>
+
+                    <li class="single"><a href="mailto:rocling2021@gmail.com" class="navItems" navto=''>mailto:rocling2021@gmail.com</a></li>
+
+                    <!-- <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Information</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="javascript:;" class="navItems" navto='#'>Accomoodation</a></li>
+                            <li><a href="javascript:;" class="navItems" navto='#'>Transportation</a></li>
+                            <li><a href="javascript:;" class="navItems" navto='#'>Venue</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+    </div>
+   
+
+    <!-- ============================================================================ -->
+
+    <div class="banner" id="ban">
+        <img src="image/main_banner.jpg" alt="banner">
+    </div>
+
+    <!-- ============================================================================ -->
+
+    <div class="announcement">
+        <div class="bg">
+
+        <div class="news">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active" style="background-image: 'image/side/side.jpeg';">
+                        <img src="image/side/pink.jpeg" class="" alt="...">
+                        <div class="carousel-caption align-items-center">
+                            <h1>COVID-19 Announcement</h1>
+                            <p>We remain optimistic that ROCLING 2021 will proceed as planned in mid October. However, given the current fluidity of the situation with COVID-19, we clearly cannot predict what October will bring and so we want to assure you that we are planning for every eventuality and will keep you informed of any changes if and as soon as they occur.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="image/side/ncu_gate.jpg" class="" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="image/side/gate.jpg" class="" alt="...">
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="importantdate" id="imd">
+            
+                <div class="flex" id="imd_flex">
+                    <h1>Important Dates</h1>
+                    
+                    <div class="item">
+                        <ul>
+                            <li>Paper Submission Due: July 23, 2021</li>
+                            <li>Notification of acceptance: August 27, 2021</li>
+                            <li>Camera-ready due: September 10, 2021</li>
+                            <li>Early Registration ends: September 15, 2021</li>
+                            <li>Late Registration ends: October 5, 2021</li>
+                            <li>On-Site Registration: October 15-16, 2021</li>
+                        </ul>
+                    </div>
+                    
+                    <p>All deadlines are 11.59 pm UTC-12h (anywhere on earth)</p>
+                </div>
+            
+        </div>
+
+        </div>
+    </div>
+
+    <!-- ============================================================================ -->
+
+    <div class="welcome">
+        <div class="wrap">
+            <div class="item pic">
+                <img src="image/rocling2021_history.png" alt="">  
+            </div>
+            <div class="item text">
+                <h1>Welcome to ROCLING 2021!</h1>
+                <div class="content">
+                    
+                    <p>ROCLING 2021 is the 33rd annual Conference on Computational Linguistics and Speech Processing in Taiwan sponsored by the Association for Computational Linguistics and Chinese Language Processing (ACLCLP).The conference will be held in the Teaching and Research Building of National Central University (NCU) in Taoyuan, Taiwan during October 15-16, 2021.
+                    </p>
+
+                    <p>ROCLING 2021 will provide an international forum for researchers and industry practitioners to share their new ideas, original research results and practical development experiences from all language and speech research areas, including computational linguistics, information understanding, and signal processing. ROCLING 2021 will feature oral papers, posters, tutorials, special sessions and shared tasks.  
+                    </p>
+
+                    <p>The conference on Computational Linguistics and Speech Processing (ROCLING) was initiated in 1988 by the Association for Computational Linguistics and Chinese Language Processing (ACLCLP) with the major goal to provide a platform for researchers and professionals from around the world to share their experiences related to natural language processing and speech processing. Following are a list of past ROCLING conferences.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================================================ -->
+
+    <div class="paper" id="call_paper">
+
+        <h1>Call for Papers</h1>
+        
+        <div class="introduce_div_before">
+            <div class="introduce_div">
+                <p>ROCLING 2021 invites paper submissions reporting original research results and system development experiences as well as real-world applications. Each submission will be reviewed based on originality, significance, technical soundness, and relevance to the conference. Accepted papers will be presented orally or as poster presentations. Both oral and poster presentations will be published in the ROCLING 2021 conference proceedings and included in the ACL Anthology. A number of papers will be selected and invited for extension into journal versions and publication in a special issue of the International Journal of Computational Linguistics and Chinese Language Processing (IJCLCLP).
+                </p>
+                <p>Papers can be written and presented in either Chinese or English. Papers should be made in PDF format and submitted online through the paper submission system. Submitted papers may consist of 4-8 pages of content, plus unlimited references. Upon acceptance, final versions will be given additional pages of content (up to 9 pages) so that reviewers’ comments can be taken into account. ROCLING 2021 mainly targets two scientific tracks: natural language processing (NLP) and speech processing (Speech). Relevant topics for the conference include, but are not limited to, the following areas (in alphabetical order):
+                </p>
+            </div>
+        </div>
+        
+        <div class="table_div_mid">
+            <div class="table_flex">
+                <table class="paper_table">
+                    <!-- header -->
+                    <tr>
+                        <th>Natural Language Processing</th>
+                        <th>Speech Processing</th>
+                    </tr>
+                    <!-- content -->
+                    <tr>
+                        <!-- first row -->
+                        <td>
+                            <div class="ul_div">
+                                <ul>
+                                    <li>Cognitive/Psychological Linguistics</li>
+                                    <li>Discourse and Pragmatics</li>
+                                    <li>Dialogue System</li>
+                                    <li>Information Extraction</li>
+                                    <li>Information Retrieval</li>
+                                    <li>Language Generation</li>
+                                    <li>Machine Translation</li>
+                                    <li>NLP Applications</li>
+                                    <li>Phonology, Morphology and Word Segmentation</li>
+                                    <li>Question Answering</li>
+                                    <li>Resources and Evaluation</li>
+                                    <li>Semantics: Lexical, Sentence-Level, Textual Inference</li>
+                                    <li>Sentiment Analysis</li>
+                                    <li>Summarization</li>
+                                    <li>Syntax: Tagging, Chunking and Parsing</li>
+                                    <li>Others</li>
+                                </ul>
+                            </div>
+                        </td>
+                        <!-- second row -->     
+                        <td>
+                            <div class="ul_div">
+                                <ul>
+                                    <li>Speech Perception, Production and Acquisition</li>
+                                    <li>Phonetics, Phonology and Prosody</li>
+                                    <li>Analysis of Paralinguistics in Speech and Language</li>
+                                    <li>Speaker and Language Identification</li>
+                                    <li>Analysis of Speech and Audio Signals</li>
+                                    <li>Speech Coding and Enhancement</li>
+                                    <li>Speech Synthesis and Spoken Language Generation</li>
+                                    <li>Speech Recognition</li>
+                                    <li>Spoken Dialog Systems and Analysis of Conversation</li>
+                                    <li>Spoken Language Processing:<br> Retrieval, Translation, Summarization, Resources and Evaluation</li>
+                                    <li>Others</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="introduce_div_after">
+            <div class="introduce_div">
+                <p>Paper submissions must use the official <a href="rocling2021-templates.zip" target="_blank" title="uninstructed">ROCLING 2021 style templates (Latex and Word)</a>.  
+                    Submission is electronic, using the EasyChair conference management system. The submission 
+                    site is available at <font color="red">url (under construction)</font>.
+                </p>
+
+                <p>&As the reviewing will be double-blind, papers must not include authors' names and affiliations. Furthermore, self-references that reveal the author's identity must be avoided. Papers that do not conform to these requirements will be rejected without review. Papers may be accompanied by a resource (software and/or data) described in the paper, but these resources should be anonymized as well.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ============================================================================ -->
+
+    <div class="keynote" id="key_note">
+        <h1>Keynote Speakers</h1>
+
+        <div class="flex">
+            <h2>Vincent Ng</h2>
+            <h3>The University of Texas at Dallas </h3>
+            
+
+            <div class="wrap_text">
+                
+                <div class="wrap_pic">
+                    <img src="image/keynote/ng.jpg" alt="Vincent Ng (Ph.D., Cornell)">
+                </div>
+
+                <p> Vincent Ng (Ph.D., Cornell) is a Professor in the Computer Science Department at
+                     the University of Texas at Dallas. He is also the director of the Machine Learning and Language Processing
+                      Laboratory in the Human Language Technology Research Institute at UT Dallas. He is currently an associate
+                       editor of the journal of Artificial Intelligence, an action editor of the Transactions of the Association
+                        for Computational Linguistics, and an associate editor of the ACM Transactions on Asian and Low-Resource
+                         Language Information Processing (TALLIP). His recent projects have focused primarily on developing
+                          unsupervised and semi-supervised machine learning techniques for natural language processing, with the
+                           goal of reducing the amount of annotated data needed to build NLP applications and process resource-scarce
+                            languages.</p>
+
+            </div>
+        </div>
+
+        <div class="flex">
+            <h2>Jinyu Li</h2>
+            <h3>Microsoft Corporation, Redmond, USA</h3>
+
+            <div class="wrap_text">
+
+                <div class="wrap_pic">
+                    <img src="image/keynote/Jinyu_Li.jpg" alt="Jinyu Li">
+                </div>
+
+                <p> Jinyu Li received the Ph.D. degree from Georgia Institute of Technology, Atlanta, in 2008. From 2000 to 2003, 
+                    he was a Researcher in the Intel China Research Center and Research Manager in iFlytek, China. Currently, he
+                     is a Partner Applied Scientist and Technical Lead in Microsoft Corporation, Redmond, USA. He leads a team to
+                      design and improve speech modeling algorithms and technologies that ensure industry state-of-the-art speech 
+                      recognition accuracy for Microsoft.His major research interests cover several topics in speech recognition, including end-to-end modeling, deep 
+                    learning, noise robustness, etc. He is the leading author of the book "Robust Automatic Speech Recognition -- 
+                    A Bridge to Practical Applications", Academic Press, Oct, 2015. He is the member of IEEE Speech and Language Processing Technical Committee since 2017. He also served as the 
+                    associate editor of IEEE/ACM Transactions on Audio, Speech and Language Processing from 2015 to 2020. </p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ============================================================================ -->
+
+    <div class="special_session" id='special'>
+        <h1>Special Session</h1>
+
+        <div class="session">
+            <h2>大腦與語言<br>
+                Special Session: Brain and Language
+            </h2>
+            <div class="people">
+                <div class="author">
+                    <img src="image/Special_Session/徐峻賢.jpg">
+                    <p>
+                        徐峻賢 Chun-hsien Hsu<br>
+                        國立中央大學認知神經科學研究所<br>
+                        Institute of Cognitive Neuroscience<br>
+                        National Central University, Taiwan<br>
+                        neurolang@g.ncu.edu.tw
+                    </p>
+                </div>
+
+                <div class="author">
+                    <img src="image/Special_Session/李佳穎.jpg">
+                    <p>
+                        李佳穎 Chia-ying Lee<br>
+                        中央研究院語言學研究所<br>
+                        Institute of Linguistics<br>
+                        Academia Sinica, Taiwan<br>
+                        chiaying@gate.sinica.edu.tw
+                    </p>
+                </div>
+
+                <div class="author">
+                    <img src="image/Special_Session/李佳霖.jpg">
+                    <p>
+                        李佳霖 Chia-lin Lee<br>
+                        國立台灣大學語言學研究所<br>
+                        Graduate Institute of Linguistics<br>
+                        National Taiwan University, Taiwan<br>
+                        chialinlee@ntu.edu.tw
+                    </p>
+                </div>
+            </div>
+
+            <div class="content">
+                <h3>摘要</h3>
+                <p>作為一門跨領域的科學研究項目，神經語言學擅長結合各種領域知識，主要包含腦科學、語言學理論、計算科學、認知心理學，以探討大腦如何處理人類語言。本次座談會希望將相關的研究成果回饋給科學研究社群，以鼓勵更多資訊科學、語言學領域的學者和研究生參與神經語言學的研究。本次座談會提到的語言參數來自各種不同的資源，包含中華民國計算語言學會出版的平衡語料庫、口語資料庫，以及研究者依照研究目的而建置的語料。這些資訊有助於實驗研究，以探索語言發展，以及探索一般正常母語使用者的大腦解讀語言結構的方式。徐峻賢會介紹基本的認知神經科學研究方法，以及使用腦磁圖技術研究構詞理論、口語理解的研究成果，並且分享以深度學習模型探討大腦活動特徵的研究方法。李佳穎將介紹結合行為測量、事件關聯腦電位進行詞彙知識、語言發展的研究成果，以實證研究澄清一般人對於中文的字型、字音結構常有的迷思，並且從語料庫進行語意多樣性的分析說明當前心理詞彙理論的轉變。李佳霖將分享人們處理意義的認知功能和其大腦機制，包含從語言使用的情境提取適當的語意訊息 （比如 “鋼琴” 要指涉音色、形狀、還是操作方式），以及老化造成的改變對於處理意義的認知功能之影響。
+                </p>
+                
+                <h3>Abstract</h3>
+                <p>Neurolinguistic is an interdisciplinary study that incorporates elements of neuroscience, linguistics, computational science, and cognitive psychology to aiming to explore how the brain processes human language. By presenting our research results to the science community, we hope to encourage future studies from researchers and graduate students in the areas of computational science and linguistics. The speech parameters mentioned in this symposium were gathered from distinct sources including Sinica Corpus and COSPRO & Toolkit published by the Association for Computational Linguistics and Chinese Language Processing, and customized databases that were built by researchers regarding their purposes of research. These data are beneficial to research studies aiming to explore topics in language development and language comprehension in native speakers. Dr. Chun-Hsien Hsu is going to introduce some basic research methods in cognitive neuroscience, and the research results of using Magnetoencephalography (MEG) to study morphosyntactic theories and speech comprehension. Dr. Hsu would also shares some approaches to employ deep learning models for studying the features of brain responses to language. Dr. Chia-yin Lee is going to talk about the use of combining behavioral testings and Event-Related Potential (ERP) in vocabulary knowledge and language development studies. Dr. Lee intends to clarify common misconceptions and myths about Chinese orthography and phonetic structures, and explain the current changes/shift in theories of mental lexicon through corpus analyses. Dr. Chia-Lin Lee is going to share with us about the cognitive functions and brain mechanisms involved in the processing of meaningful information, which includes the fetching of appropriate semantic meaning depending on the context of usage ( i.e. the concept of “piano” may comprise the sound of a piano, the shape of the instrument, and different ways to play it etc.), and the effect of aging on general cognitive function and semantic processes. 
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ============================================================================ -->
+    
+    <div class="sharetask" id="task">
+        <h1>ROCLING 2021 Shared Task:</h1>
+        <h3><br>Dimensional Sentiment Analysis for Chinese Students’ Self-Evaluated Comments</h3>
+
+
+        <div class="share_org">
+            <h2>Organizers</h2>
+            <div class="share_people">
+                <div class="author">
+                    <img src="image/share_task/Liang-Chih-Yu.jpg">
+                    <p>
+                        禹良治 Liang-Chih Yu<br>
+                        元智大學資訊管理學系<br>
+                        Department of Information Management<br>
+                        Yuan Ze University, Taiwan<br>
+                        lcyu@saturn.yzu.edu.tw
+                    </p>
+                </div>
+                <div class="author">
+                    <img src="image/share_task/Jin-Wang.jpg">
+                    <p>
+                        王津 Jin Wang<br>
+                        雲南大學 信息學院<br>
+                        School of Information Science & Engineering<br>
+                        Yunnan University<br>
+                        wangjin@ynu.edu.cn
+                    </p>
+                </div>
+                <div class="author">
+                    <img src="image/share_task/user.jpg">
+                    <p>
+                        彭博 Bo Peng<br>
+                        香港理工大學 中文及雙語學系<br>
+                        The Department of Chinese and Bilingual Studies<br>
+                        The Hong Kong Polytechnic University<br>
+                        <!-- churen.huang@polyu.edu.hk -->
+                    </p>
+                </div>
+                <div class="author">
+                    <img src="image/share_task/Chu-Ren-Huang.jpg">
+                    <p>
+                        黃居仁 Chu-Ren Huang<br>
+                        香港理工大學 中文及雙語學系<br>
+                        The Department of Chinese and Bilingual Studies<br>
+                        The Hong Kong Polytechnic University
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        
+        <div class="part">
+            <h2>I.&emsp;Background</h2>
+            <p>Sentiment analysis has emerged as a leading technique to automatically identify affective information within texts. In sentiment analysis, affective states are generally represented using either categorical or dimensional approaches (Calvo and Kim, 2013). The categorical approach represents affective states as several discrete classes (e.g., positive, negative, neutral), while the dimensional approach represents affective states as continuous numerical values on multiple dimensions, such as valence-arousal (VA) space (Russell, 1980), as shown in Fig. 1. The valence represents the degree of pleasant and unpleasant (or positive and negative) feelings, and the arousal represents the degree of excitement and calm. Based on this two-dimensional representation, any affective state can be represented as a point in the VA coordinate plane by determining the degrees of valence and arousal of given words (Wei et al., 2011; Malandrakis et al., 2013; Wang et al., 2016; Du and Zhang, 2016; Wu et la., 2017; Yu et al., 2020) or texts (Kim et al., 2010; Paltoglou et al, 2013; Goel et la., 2017; Zhu et al., 2019; Wang et al., 2019; 2020).</p>
+            <p>In 2016, we hosted a first dimensional sentiment analysis task for Chinese words (Yu et al., 2016b) at the 20th International Conference on Asian Language Processing (IALP 2016). In 2017, we extended this task to include both word- and phrase-level dimensional sentiment analysis (Yu et al., 2017). This year, we explore the sentence-level dimensional sentiment analysis task on students’ self-evaluated comments.</p>
+            <div class="f1"><img src="image/share_task/Figure1.png"></div>
+            
+        </div>
+
+        <div class="part">
+            <h2>II.&emsp;Task Description</h2>
+            <p>Structured data such as attendance, homework completion and in-class participation have been extensively studied to predict students’ learning performance. Unstructured data, such as self- evaluation comments written by students, is also a useful data resource because it contains rich emotional information that can help illuminate the emotional states of students (Yu et al., 2018). Dimensional sentiment analysis is an effective technique to recognize the valence-arousal ratings from texts, indicating the degree from most negative to most positive for valence, and from most neutral low Valence IV Low-Arousal, Positive-Valence Tired calm to most excited for arousal.</p>
+            <p>In this task, participants are asked to provide a real-valued score from 1 to 9 for both valence and arousal dimensions for each self-evaluation comment. The input format is “sentence_id, sentence”, and the output format is “sentence_id, vallence_rating, arousal_rating”. Below are the input/output formats of the example sentences.</p>
+            <div class="example">
+                <h3>Example 1:</h3>
+                <p>&emsp; &emsp; &emsp;Input: 1, 今天教了許多以前沒有學過的東西，所以上起課來很新鮮</p>
+                <p>&emsp; &emsp; &emsp;Output: 1, 6.8, 5.2</p>
+            </div>
+            <div class="example">
+                <h3>Example 2:</h3>
+                <p>&emsp; &emsp; &emsp;Input: 2, 覺得課程進度有點快，內容難以消化</p>
+                <p>&emsp; &emsp; &emsp;Output: 2, 3.0, 4.0</p>
+            </div>
+            
+        </div>
+
+        <div class="part">
+            <h2>III.&emsp;Data</h2>
+            <p>Training set</p>
+            <div class="list">
+                <ul>
+                    <li>CVAW 4.0: including 5,512 single words annotated with valence-arousal ratings (Yu et al., 2016a).</li>
+                    <li>CVAP 2.0: including 2,998 multi-word phrases annotated with valence-arousal ratings (Yu et al., 2017).</li>
+                    <li>CVAT 2.0: including 2,969 sentences annotated with valence-arousal ratings (Yu et al., 2016a).</li>
+                </ul>
+            </div>
+            <!-- <p>Test set</p>
+            <div class="list">
+                <ul>
+                    <li>TBD</li>
+                </ul>
+            </div> -->
+            <p><br>The policy of this shared task is an open test. Participating systems are allowed to use other publicly available data for this shared task, but the use of other data should be specified in the final technical report.</p>
+        </div>
+
+        <div class="part">
+            <h2>IV.&emsp;Evaluation</h2>
+            <p>The performance is evaluated by examining the difference between machine-predicted ratings and human-annotated ratings (valence and arousal are treated independently). The evaluation metrics include:</p>
+            <div class="formula">
+                <table class="for_tab">
+                    <tr>
+                        <td><p>Mean absolute error:</p></td>
+                        <td><img src="image/share_task/mae.png"></td>
+                    </tr>
+                    <tr>
+                        <td><p>Pearson correlation coefficient:</p></td>
+                        <td><img src="image/share_task/pcc.png"></td>
+                    </tr>
+                </table>
+            </div>
+            <p>where A<sub>i</sub> denotes the human-annotated ratings, P<sub>i</sub> denotes the machine-predicted ratings, n is the number of test samples, A and P respectively denote the arithmetic mean of A and P, and σ is the
+                standard deviation.</p>
+        </div>
+
+        <div class="part">
+            <h2>V.&emsp;Important Dates</h2>
+            <div class="list">
+                <ul>
+                    <li>Release of training data: May 1, 2021</li>
+                    <li>Release of test data: July 21, 2021</li>
+                    <li>Testing results submission due: July 23, 2021</li>
+                    <li>Release of evaluation results: July 26, 2021</li>
+                    <li>System description paper due: August 9, 2021</li>
+                    <li>Notification of Acceptance: August 27, 2021</li>
+                    <li>Camera-ready deadline: September 10, 2021</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="part">
+            <h2>References</h2>
+            <div class="list">
+                <ul>
+                    <li>Rafael A. Calvo, and Sunghwan Mac Kim. 2013. Emotions in text: dimensional and categorical models. Computational Intelligence, 29(3):527-543.</li>
+                    <li>Munmun De Choudhury, Scott Counts, and Michael Gamon. 2012. Not all moods are created equal! Exploring human emotional states in social media. In Proc. of ICWSM-12, pages 66-73.</li>
+                    <li>Steven Du and Xi Zhang. 2016. Aicyber’s system for IALP 2016 shared task: Character-enhanced word vectors and Boosted Neural Networks, in Proc. of IALP-16, pages 161–163.</li>
+                    <li>Pranav Goel, Devang Kulshreshtha, Prayas Jain and Kaushal Kumar Shukla. 2017. Prayas at EmoInt 2017: An Ensemble of Deep Neural Architectures for Emotion Intensity Prediction in Tweets, in Proc. of WASSA-17, pages 58–65.</li>
+                    <li>Sunghwan Mac Kim, Alessandro Valitutti, and Rafael A. Calvo. 2010. Evaluation of unsupervised emotion models to textual affect recognition. In Proc. of the NAACL HLT 2010 Workshop on Computational Approaches to Analysis and Generation of Emotion in Text, pages 62-70.</li>
+                    <li>N. Malandrakis, A. Potamianos, E. Iosif, and S. Narayanan. 2013. Distributional semantic models for affective text analysis. IEEE Transactions on Audio, Speech, and Language Processing, 21(11): 2379-2392.</li>
+                    <li>Myriam Munezero, Tuomo Kakkonen, and Calkin S. Montero. 2011. Towards automatic detection of antisocial behavior from texts. In Proc. of the Workshop on Sentiment Analysis where AI meets Psychology (SAAIP) at IJCNLP-11, pages 20-27.</li>
+                    <li>Georgios Paltoglou, Mathias Theunis, Arvid Kappas, and Mike Thelwall. 2013. Predicting emotional responses to long informal text. IEEE Trans. Affective Computing, 4(1):106-115.</li>
+                    <li>Jie Ren and Jeffrey V. Nickerson. 2014. Online review systems: How emotional language drives sales. In Proc. of AMCIS-14.</li>
+                    <li>James A. Russell. 1980. A circumplex model of affect. Journal of Personality and Social Psychology, 39(6):1161.</li>
+                    <li>Wen-Li Wei, Chung-Hsien Wu, and Jen-Chun Lin. 2011. A regression approach to affective rating of Chinese words from ANEW. In Proc. of ACII-11, pages 121-131.</li>
+                    <li>Liang-Chih Yu, Cheng-Wei Lee, Huan-Yi Pan, Chih-Yueh Chou, Po-Yao Chao, Zhi-Hong Chen, Shu-Fen Tseng, Chien-Lung Chan and K. Robert Lai. 2018. Improving early prediction of academic failure using sentiment analysis on self-evaluated comments, Journal of Computer Assisted Learning, 34(4):358-365.</li>
+                    <li>Liang-Chih Yu, Lung-Hao Lee, Shuai Hao, Jin Wang, Yunchao He, Jun Hu, K. Robert Lai, and Xuejie Zhang. 2016a. Building Chinese affective resources in valence-arousal dimensions. In Proc. of NAACL/HLT-16, pages 540-545.</li>
+                    <li>Liang-Chih Yu, Lung-Hao Lee, Jin Wang and Kam-Fai Wong. 2017. IJCNLP-2017 Task 2: Dimensional sentiment analysis for Chinese phrases, in Proc. of IJCNLP-17, pages 9-16.</li>
+                    <li>Liang-Chih Yu, Lung-Hao Lee and Kam-Fai Wong. 2016b. Overview of the IALP 2016 shared task on dimensional sentiment analysis for Chinese words, in Proc. of IALP-16, pages 156-160.</li>
+                    <li>Liang-Chih Yu, Jin Wang, K. Robert Lai and Xuejie Zhang. 2020. Pipelined neural networks for phrase-level sentiment intensity prediction, IEEE Transactions on Affective Computing, 11(3), 447-458.</li>
+                    <li>Jin Wang, Liang-Chih Yu, K. Robert Lai and Xuejie Zhang. 2016. Community-based weighted graph model for valence-arousal prediction of affective words, IEEE/ACM Trans. Audio, Speech and Language Processing, 24(11):1957-1968.</li>
+                    <li>Jin Wang, Liang-Chih Yu, K. Robert Lai and Xuejie Zhang. 2020. Tree-structured regional CNN- LSTM model for dimensional sentiment analysis, IEEE/ACM Transactions on Audio Speech and Language Processing, 28, 581–591.</li>
+                    <li>Chuhan Wu, Fangzhao Wu, Yongfeng Huang, Sixing Wu and Zhigang Yuan. 2017. THU NGN at IJCNLP-2017 Task 2: Dimensional sentiment analysis for Chinese phrases with deep LSTM, in Proc. of IJCNLP-17, pages 42-52.</li>
+                    <li>Suyang Zhu, Shoushan Li and Guodong Zhou. 2019. Adversarial attention modeling for multi- dimensional emotion regression, in Proc. of ACL-19, pages 471–480.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- ============================================================================ -->
+    <div class="organization" id="org">
+        <h1>Organization</h1>
+        <div class="flex">
+
+            <div class="flex_center">
+
+                <div class="wrap">
+                    <h2>Honorary Chair</h2>
+                    <div class="item">
+                        <img src="image/organization/Jing-Yang-Jou.jpg" alt="">
+                        <div class="people">
+                            <h3>Jing-Yang Jou</h3>
+                            <p>National Central University</p>
+                        </div>
+                    </div> 
+                </div>
+                
+                <div class="wrap">
+                    <h2>Conference Chairs</h2>
+
+                    <div class="item">
+                        <img src="image/organization/Lung-Hao-Lee.jpg" alt="">
+                        <div class="people">
+                            <h3>Lung-Hao Lee</h3>
+                            <p>National Central University</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="image/organization/Chia-Hui-Chang.jpg" alt="">
+                        <div class="people">
+                            <h3>Chia-Hui Chang</h3>
+                            <p>National Central University</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="image/organization/Kuan-Yu-Chen.jpg" alt="">
+                        <div class="people">
+                            <h3>Kuan-Yu Chen</h3>
+                            <p>National Taiwan University of Science and Technology</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                
+                <div class="wrap">
+                    <h2>Program Chairs</h2>
+                    <div class="item">
+                        <img src="image/organization/Yung-Chun-Chang.jpeg" alt="">
+                        <div class="people">
+                            <h3>Yung-Chun Chang</h3>
+                            <p>Taipei Medical University</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="item">
+                        <img src="image/organization/Yi-Chin-Huang.jpg" alt="">
+                        <div class="people">
+                            <h3>Yi-Chin Huang</h3>
+                            <p>National Pingtung University</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+                
+                <div class="wrap">
+                    <h2>Tutorial Chair</h2>
+                    <div class="item">
+                        <img src="image/organization/Hung-Yi-Lee.jpg" alt="">
+                        <div class="people">
+                            <h3>Hung-Yi Lee</h3>
+                            <p>National Taiwan University</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            
+                
+                <div class="wrap">
+                    <h2>Publication Chair</h2>
+                    <div class="item">
+                        <img src="image/organization/Jheng-Long-Wu.jpg" alt="">
+                        <div class="people">
+                            <h3>Jheng-Long Wu</h3>
+                            <p>Soochow University</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="flex_center">
+                <div class="space"></div>
+                <div class="wrap">
+                    <h2>Organized by</h2>
+                    <div class="org_block">
+                        <img src="image/organization/org_unit/NCU_logo.png" alt="">
+                        <p>National Center University</p>
+                    </div>
+
+                    <div class="org_block">
+                        <img src="image/organization/org_unit/NTUST_logo.png" alt="">
+                        <p>National Taiwan University of Science and Technology</p>
+                    </div>
+
+                    <div class="org_block">
+                        <img src="image/organization/org_unit/ACLCLP_logo.png" alt="">
+                        <p>The Association for Computational Linguistics and Chinese Language Processing</p>
+                    </div>
+                </div>
+
+                <div class="wrap">
+                    <h2>Supported by</h2>
+                    <div class="org_block">
+                        <img src="image/organization/org_unit/MST_logo.png" alt="">
+                        <!-- <p>Ministry of Science and Technology,Taiwan</p> -->
+                    </div>
+                </div>
+
+            </div>
+        
+        </div>
+    </div>
+
+    <!-- ============================================================================ -->
+    <div class="footer">
+        &copy;ROCLING 2021, National Center University (NCU), Taoyuan City, Taiwan || Email: rocling2021@gmail.com || Updated: April 16,2021
+    </div>
+
+    <!-- 匯入main javascript -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
