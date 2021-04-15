@@ -305,6 +305,12 @@
         Align-items:center;
         height: auto;
     }
+
+    .announcement .importantdate .item ul {
+        text-align: left;
+        margin:auto;
+        width: 80%;
+    }
 }
 
 /* ==================================================== */
@@ -422,7 +428,11 @@
 }
 
 .paper .table_div_mid .table_flex{
-    width:auto;
+    width:100%;  
+}
+
+.paper .table_div_mid .table_flex .paper_table{
+
 }
 
 .paper .table_div_mid .table_flex .paper_table ul{
@@ -449,6 +459,7 @@
     border: 3px solid black;
     padding-left:15px;
     line-height: 24px;
+    word-break: break-all;
 }
 
 .paper .table_div_mid .table_flex .paper_table .ul_div{
@@ -1128,6 +1139,10 @@
         background-color: var(--bg1);
         width: 100%;
         margin:auto;
+    }
+
+    .organization #MST{
+        width:100%;
     }
 }
 
